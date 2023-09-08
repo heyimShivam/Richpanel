@@ -1,0 +1,6 @@
+.fb-main-page {
+    background-color: var(--bg-color);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

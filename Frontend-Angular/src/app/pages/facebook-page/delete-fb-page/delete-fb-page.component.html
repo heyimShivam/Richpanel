@@ -1,0 +1,12 @@
+<div class="delete-fb-page-form">
+    <div class="form">
+        <h5 class="delete-fb-form-title">
+            FaceBook Page Integration
+        </h5>
+        <h6 class="Integrated-Page-name">Integrated Page: <b>{{integratedPageName}}</b></h6>
+        <div class="delete-fb-form">
+            <button class="delete-btn-fb" [ngStyle]="{'background-color': 'red'}" (click)="deleteIntegration()">Delete Integration</button>
+            <button routerLink="/">Reply To Messages</button>
+        </div>
+    </div>
+</div>
